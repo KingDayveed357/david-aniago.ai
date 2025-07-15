@@ -57,13 +57,18 @@ const FeaturedProjects = () => {
                       </Button>
                       : ""
                       }  
-                      <Button
+                      {
+                        project.githubUrl ? 
+                         <Button
                         size="sm"
                         variant="secondary"
                         className="bg-white/90 dark:bg-slate-800/90 hover:bg-white dark:hover:bg-slate-800 backdrop-blur-sm hover:scale-110"
+                        onClick={() => window.open(project.githubUrl, "_blank")}
                       >
                         <Github className="w-4 h-4" />
-                      </Button>
+                      </Button> : ""
+                      }
+                     
                     </div>
                   </div>
                   <CardContent className="p-6 space-y-4">

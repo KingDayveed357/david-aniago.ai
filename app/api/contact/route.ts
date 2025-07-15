@@ -52,8 +52,8 @@ export async function POST(request: Request) {
 
     // Send email
     const emailData = await resend.emails.send({
-      from: 'Portfolio Contact <onboarding@resend.dev>',
-      to: 'davidaniago@gmail.com',
+      from: 'Portfolio Contact <david-aniago-ai.vercel.app>',
+      to: 'daveaniago@gmail.com',
       subject: `New Contact Form Submission from ${sanitizedData.name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
