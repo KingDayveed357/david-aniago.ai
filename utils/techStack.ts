@@ -1,0 +1,18 @@
+  export const techStack = [
+    { name: "React", category: "Frontend" },
+    { name: "Next.js", category: "Frontend" },
+    { name: "React Native", category: "Mobile" },
+    { name: "TypeScript", category: "Language" },
+    { name: "JavaScript", category: "Language" },
+    { name: "Laravel", category: "Backend" },
+    { name: "PHP", category: "Backend" },
+    { name: "Node.js", category: "Backend" },
+    { name: "Express.js", category: "Backend" },
+    { name: "MySQL", category: "Database" },
+    { name: "MongoDB", category: "Database" },
+    { name: "Tailwind CSS", category: "Styling" },
+    { name: "Bootstrap", category: "Styling" },
+    { name: "Redux", category: "State Management" },
+    { name: "Zustand", category: "State Management" },
+    { name: "Git", category: "Tools" },
+  ]
